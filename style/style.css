@@ -1,5 +1,33 @@
 /* FONTS  */
+@font-face {
+     font-family: "Kumbh Sans";
+     src: url("../fonts/KumbhSans-Bold.woff2") format("woff2"),
+         url("../fonts/KumbhSans-Bold.woff") format("woff");
+     font-weight: bold;
+     font-style: normal;
+     font-display: swap;
+ }
+
+ @font-face {
+     font-family: "Public Sans";
+     src: url("../fonts/PublicSans-Regular.woff2") format("woff2"),
+         url("../fonts/PublicSans-Regular.woff") format("woff");
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
+ }
+
+
 /* ROOT  */
+:root{
+     --text-color: #69707D;
+     --text-color: #69707D;
+     --accseni-color: #ff7e1b;
+     --accsent-color-light: #ffeee2;
+     --accsent-color-hover: #ffab6a;
+     --light-bg: #f6f8fd;
+     --font-famly: "Kumbh Sans", "Arial", sans-serif;
+}
 /* GLOBALL */
 
 html {
@@ -20,11 +48,11 @@ body {
      padding: 0;
      margin: 0;
      flex-direction: column;
-     background-color: #fff;
-     color: #222;
-     font-family: "Arial" sans-serif;
+     background-color: #F2F2F2;
+     color: var(--text-color);
+     font-family: var(--font-famly);
      font-size: 16px;
-     line-height: 1.5;
+     line-height: 26px;
 }
 
 img {
@@ -71,9 +99,9 @@ select:-webkit-autofill:focus {
 
 .container {
      width: 100%;
-     max-width: 1200px;
-     padding-left: 50px;
-     padding-right: 50px;
+     max-width: 1148px;
+     padding-left: 24px;
+     padding-right: 24px;
      margin-left: auto;
      margin-right: auto;
 }
