@@ -129,8 +129,6 @@ select:-webkit-autofill:focus {
 }
 
 /* SITE HEADER */
-.site-header {
-}
 .site-header__container {
      display: flex;
      align-items: center;
@@ -174,6 +172,9 @@ select:-webkit-autofill:focus {
      height: 4px;
      background-color: var(--accseni-color);
      content: "";
+}
+.site-header_sitenav{
+     margin-right: auto;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
