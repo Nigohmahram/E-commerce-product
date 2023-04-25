@@ -175,6 +175,46 @@ select:-webkit-autofill:focus {
      background-color: var(--accseni-color);
      content: "";
 }
+/* BUTTON  */
+.button {
+     display: inline-block;
+     padding: 0;
+     border: 0;
+     border-radius: 10px;
+     text-decoration: none;
+     font-size: 16px;
+     line-height: 1;
+     font-weight: bold;
+     cursor: pointer;
+     background-color: var(--accseni-color);
+     color: #fff;
+     overflow: hidden;
+     align-items: center;
+}
+.button--block{
+     display: flex;
+     width: 100%;
+}
+.button--wide{
+     max-width: 262px;
+}
+.button:hover{
+     background-color: var(--accsent-color-hover);
+}
+.button:active{
+     transform: translateY(3px);
+     opacity: 0.6;
+}
+.button__inner {
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+     padding: 22px 20px 18px;
+}
+.button__prepend{
+     margin-right: 16px;
+}
 /* SHOPPING CART PRODUCTS  */
 .shopping-cart-products {
      padding: 0;
@@ -208,6 +248,7 @@ select:-webkit-autofill:focus {
      white-space: nowrap;
      text-overflow: ellipsis;
      overflow: hidden;
+     text-transform: capitalize;
 
 }
 .item-shopping-cart-products__cost {
