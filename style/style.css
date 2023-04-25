@@ -353,9 +353,9 @@ select:-webkit-autofill:focus {
      background-color: var(--accseni-color);
      color: #fff;
 }
-.site-header__cart--empty .site-header__cart-product-count{
+/* .site-header__cart--empty .site-header__cart-product-count{
      display: none;
-}
+} */
 .site-header__profile-avatar{
      width: 50px;
      height: 50px;
@@ -373,7 +373,11 @@ select:-webkit-autofill:focus {
 }
 
 /* SHOPPING CARTS  */
-.site-hader__cart-modal {
+.site-hader__cart-modal{
+     display: none;
+}
+.site-hader__cart-modal--open {
+     display: block;
      position: absolute;
      right: -76px;
      top: 94px;
