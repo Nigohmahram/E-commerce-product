@@ -177,6 +177,36 @@ select:-webkit-autofill:focus {
      margin-right: auto;
 }
 
+.site-header__cart-link {
+     position: relative;
+     display: flex;
+     color: var(--text-color);
+}
+.site-header__cart-link:hover {
+     color: var(--text-color-dark);
+}
+.site-header__cart-link:active{
+     opacity: 0.6;
+}
+
+.site-header__cart-icon {
+     width: 22px;
+     height: 20px;
+     object-fit: contain;
+}
+.site-header__cart-product-count{
+     position: absolute;
+     left: calc(100% - 13px);
+     top: -6px;
+     padding: 1px 8px;
+     font-size: 10px;
+     border-radius: 6.5px;
+     line-height: normal;
+     font-weight: bold;
+     background-color: var(--accseni-color);
+     color: #fff;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
