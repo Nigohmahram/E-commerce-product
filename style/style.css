@@ -353,9 +353,9 @@ select:-webkit-autofill:focus {
      background-color: var(--accseni-color);
      color: #fff;
 }
-/* .site-header__cart--empty .site-header__cart-product-count{
+.site-header__cart--empty .site-header__cart-product-count{
      display: none;
-} */
+}
 .site-header__profile-avatar{
      width: 50px;
      height: 50px;
